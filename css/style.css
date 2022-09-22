@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap');
+
 * {
   border: 0;
   margin: 0;
@@ -29,7 +31,7 @@
     font-family: "Roboto";
     font-size: 18px;
     line-height: 24px;
-    color: #ffffff;
+    color: #fff;
   }
 
   main {
@@ -70,7 +72,7 @@
     font-family: "Poppins";
     font-size: 18px;
     line-height: 24px;
-    color: #ffffff;
+    color: #fff;
   }
 
   .main-image {

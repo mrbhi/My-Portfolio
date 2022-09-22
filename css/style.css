@@ -95,14 +95,14 @@
   }
 
   .social ul li:hover {
-    color: #fff5e1;
+    background-color: #fff5e1;
   }
 
   .social ul li:enabled {
-    color: #f55800;
+    background-color: #f55800;
   }
 
   .social ul li:disabled {
-    color: #f4f1f0;
+    background-color: #f4f1f0;
   }
 }

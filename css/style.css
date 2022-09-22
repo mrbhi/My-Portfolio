@@ -26,7 +26,7 @@
 
   .hamburge-menu a {
     text-decoration: none;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 24px;
     color: #fff;
@@ -46,7 +46,7 @@
   }
 
   .message h1 {
-    font-family: "Crete Round";
+    font-family: "Crete Round", sans-serif;
     font-size: 56px;
     line-height: 64px;
     color: #ff6b00;
@@ -60,14 +60,14 @@
   }
 
   .message span {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 24px;
     line-height: 40px;
     color: #fff5e1;
   }
 
   .message p {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     line-height: 24px;
     color: #fff;

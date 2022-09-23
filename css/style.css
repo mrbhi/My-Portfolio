@@ -176,7 +176,6 @@
     padding: 10px 12px;
     margin-left: 18px;
     gap: 12px;
-
   }
 
   .info ul li {
@@ -191,7 +190,6 @@
     padding: 10px 12px;
     background: #fff;
     border: 1px solid #8993a4;
-
   }
 
   .info button {
@@ -230,7 +228,7 @@
     font-size: 32px;
     line-height: 44px;
     color: #fff;
-    padding: 130px 90px 0px 30px;
+    padding: 130px 90px 0 30px;
   }
 
   .card-works p {
@@ -247,7 +245,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     gap: 12px;
     margin-left: 30px;
   }
@@ -329,7 +327,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
-    margin: 20px 0 0 30;
+    margin: 20px 0 0 30px;
   }
 
   .about-me hr {
@@ -387,7 +385,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 12px 0px;
+    padding: 12px 0;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;

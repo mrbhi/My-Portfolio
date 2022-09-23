@@ -2,9 +2,10 @@
   border: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Crete Round", serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Crete Round', serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 500px) {
@@ -110,5 +111,301 @@
 
   .social ul li:disabled {
     background-color: #f4f1f0;
+  }
+
+  .recent-works {
+    background: #E5E5E5;
+    display: grid;
+    grid-template-columns:repeat(auto-fit);
+    justify-content: center;
+  }
+
+  .recent-works .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    margin-top: 120px;
+  }
+
+  .title strong {
+    font-family: 'Crete Round', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1C1A19;
+  }
+
+  hr {
+    border: 1px solid #212121;
+    width: 327px
+  }
+
+  .recent-works .feature-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    margin-top: 80px;
+  }
+
+  .feature-img img {
+    width: 440px;
+    height: 330;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+  }
+
+  .info .feature-heading {
+    font-family: 'Crete Round', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #091E42;
+  }
+
+  .info p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091E42;
+  }
+
+  .info ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    margin-left: 18px;
+    gap: 12px;    
+  }
+
+  .info ul li {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #091E42;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    background: #FFFFFF;
+    border: 1px solid #8993A4;  
+  }
+
+  .info button {
+    padding: 12px 30px;
+    margin-left: 30px;
+    gap: 10px;
+    background: #FF6B00;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
+
+  .frame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 24px;
+    gap: 24px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+
+  .card-works {
+    background-image: url('/img/CardImage.png');
+  }
+
+  .card-works h2 {
+    font-family: 'Crete Round', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding: 130px 90px 0px 30px;
+  }
+
+  .card-works p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0px 30px 0px 0px;
+  }
+
+  .card-works ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    margin-left: 30px;
+  }
+
+  .card-works ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, 0.24);
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  .card-works button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin-top: 30px;
+    background: #FF6B00;
+    width: 100%;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 120px 24px;
+    gap: 24px;
+    background: #1C1A19;
+    background-image: url('/img/About-us.png');
+    background-repeat: no-repeat;
+    background-position: bottom 1750px right 0;
+  }
+
+  .about-me title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .about-me .title h1 {
+    display: flex;
+    padding-left: 30px;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0.37px;
+    color: #FF6B00;
+  }
+
+  .about-me .title p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F4F5F7;
+  }
+
+  .about-me .title button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    background: #FF6B00;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin: 20px 0px 0px 30px
+  }
+
+  .about-me hr {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    margin-top: 200px;
+    border: 1px solid rgb(255, 255, 255);
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 24px;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .about-me .skill .sub-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+  }
+
+  .skill .sub-skill .shape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 12px;
+  }
+
+  .shape h2 {
+    font-family: 'InaiMathi', sans-serif;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+
+  .sub-skill ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 8px;
+    list-style: none;
+  }
+
+  .sub-skill ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
   }
 }

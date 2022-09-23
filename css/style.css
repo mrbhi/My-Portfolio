@@ -407,15 +407,15 @@
     background-color: #f4f1f0;
   }
 
-  .social ul li:hover {
+  button:hover {
     background-color: #fff5e1;
   }
 
-  .social ul li:enabled {
+  button:enabled {
     background-color: #f55800;
   }
 
-  .social ul li:disabled {
+  button:disabled {
     background-color: #f4f1f0;
   }
 }

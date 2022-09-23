@@ -101,22 +101,10 @@
     padding: 8px;
   }
 
-  .social ul li:hover {
-    background-color: #fff5e1;
-  }
-
-  .social ul li:enabled {
-    background-color: #f55800;
-  }
-
-  .social ul li:disabled {
-    background-color: #f4f1f0;
-  }
-
   .recent-works {
-    background: #E5E5E5;
+    background: #e5e5e5;
     display: grid;
-    grid-template-columns:repeat(auto-fit);
+    grid-template-columns: repeat(auto-fit);
     justify-content: center;
   }
 
@@ -124,7 +112,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     gap: 24px;
     margin-top: 120px;
   }
@@ -134,19 +122,19 @@
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
-    color: #1C1A19;
+    color: #1c1a19;
   }
 
   hr {
     border: 1px solid #212121;
-    width: 327px
+    width: 327px;
   }
 
   .recent-works .feature-img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     gap: 24px;
     margin-top: 80px;
   }
@@ -160,7 +148,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 12px;
   }
 
@@ -169,7 +157,7 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .info p {
@@ -177,7 +165,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .info ul {
@@ -187,7 +175,8 @@
     align-items: center;
     padding: 10px 12px;
     margin-left: 18px;
-    gap: 12px;    
+    gap: 12px;
+
   }
 
   .info ul li {
@@ -195,22 +184,21 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #091E42;
-    
+    color: #091e42;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px 12px;
-    background: #FFFFFF;
-    border: 1px solid #8993A4;  
+    background: #fff;
+    border: 1px solid #8993a4;
+
   }
 
   .info button {
     padding: 12px 30px;
     margin-left: 30px;
     gap: 10px;
-    background: #FF6B00;
-
+    background: #ff6b00;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 17px;
@@ -219,14 +207,14 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .frame-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 24px;
+    padding: 0 24px;
     gap: 24px;
     margin-top: 30px;
     margin-bottom: 100px;
@@ -241,7 +229,7 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    color: #FFFFFF;
+    color: #fff;
     padding: 130px 90px 0px 30px;
   }
 
@@ -250,8 +238,8 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
-    padding: 0px 30px 0px 0px;
+    color: #fff;
+    padding: 0 30px 0 0;
   }
 
   .card-works ul {
@@ -270,11 +258,11 @@
     align-items: center;
     padding: 10px 12px;
     background: rgba(255, 255, 255, 0.24);
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .card-works button {
@@ -284,14 +272,13 @@
     align-items: center;
     padding: 12px;
     margin-top: 30px;
-    background: #FF6B00;
+    background: #ff6b00;
     width: 100%;
-
     font-family: 'Inter', sans-serif;
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .about-me {
@@ -300,7 +287,7 @@
     align-items: flex-start;
     padding: 120px 24px;
     gap: 24px;
-    background: #1C1A19;
+    background: #1c1a19;
     background-image: url('/img/About-us.png');
     background-repeat: no-repeat;
     background-position: bottom 1750px right 0;
@@ -311,6 +298,7 @@
     flex-direction: column;
     margin-top: 50px;
   }
+
   .about-me .title h1 {
     display: flex;
     padding-left: 30px;
@@ -318,14 +306,14 @@
     font-size: 72px;
     line-height: 88px;
     letter-spacing: 0.37px;
-    color: #FF6B00;
+    color: #ff6b00;
   }
 
   .about-me .title p {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 24px;
-    color: #F4F5F7;
+    color: #f4f5f7;
   }
 
   .about-me .title button {
@@ -334,14 +322,14 @@
     align-items: center;
     padding: 12px;
     gap: 10px;
-    background: #FF6B00;
+    background: #ff6b00;
     font-family: 'Inter', sans-serif;
     font-size: 17px;
     line-height: 24px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
-    margin: 20px 0px 0px 30px
+    color: #fff;
+    margin: 20px 0 0 30;
   }
 
   .about-me hr {
@@ -365,7 +353,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     gap: 24px;
   }
 
@@ -383,14 +371,14 @@
     line-height: 44px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .sub-skill ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 12px;
+    padding: 0 12px;
     gap: 8px;
     list-style: none;
   }
@@ -400,12 +388,36 @@
     flex-direction: column;
     align-items: center;
     padding: 12px 0px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 43px;
     text-align: center;
-    color: #FFFFFF;
+    color: #fff;
+  }
+
+  .social ul li:hover {
+    background-color: #fff5e1;
+  }
+
+  .social ul li:enabled {
+    background-color: #f55800;
+  }
+
+  .social ul li:disabled {
+    background-color: #f4f1f0;
+  }
+
+  .social ul li:hover {
+    background-color: #fff5e1;
+  }
+
+  .social ul li:enabled {
+    background-color: #f55800;
+  }
+
+  .social ul li:disabled {
+    background-color: #f4f1f0;
   }
 }

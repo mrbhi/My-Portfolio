@@ -411,6 +411,7 @@
     width: 327px;
     height: 216px;
     margin-bottom: 60px;
+    margin-top: 150px;
   }
 
   .heading h2 {
@@ -529,7 +530,7 @@
   .btn:disabled {
     background-color: #f4f1f0;
   }
-  
+
   .submit:hover {
     background-color: #fff5e1;
   }

@@ -395,6 +395,117 @@
     color: #fff;
   }
 
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  .heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 327px;
+    height: 216px;
+    margin-bottom: 60px;
+    margin-top: 150px;
+  }
+
+  .heading h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #172b4d;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+    height: 330px;
+  }
+
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  #contact-form input {
+    height: 48px;
+    width: 327px;
+    border: none;
+    color: #979493;
+    border-bottom: solid 1px #dbd8d7;
+  }
+
+  #contact-form textarea {
+    height: 114px;
+    width: 327px;
+    background: #fbf8f7;
+    border: none;
+    font-size: 15px;
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .submit {
+    width: 131px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding-left: 12px;
+    margin-left: 100px;
+    background: #ff6b00;
+    color: #fff;
+    border: none;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+  }
+
+  .social-link {
+    width: 375px;
+    height: 72px;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+
+  .line-2 {
+    height: 1px;
+    color: #dfe1e6;
+  }
+
+  .f-Link {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+    padding-left: 150px;
+  }
+
   .social ul li:hover {
     background-color: #fff5e1;
   }
@@ -416,6 +527,18 @@
   }
 
   .btn:disabled {
+    background-color: #f4f1f0;
+  }
+
+  .submit:hover {
+    background-color: #fff5e1;
+  }
+
+  .submit:enabled {
+    background-color: #f55800;
+  }
+
+  .submit:disabled {
     background-color: #f4f1f0;
   }
 }

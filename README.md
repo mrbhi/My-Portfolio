@@ -1,13 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio project
 
 > My Portfolio Project, Module 1: week 1: Mobile View Completed
+> My Portfolio Project, Module 1: week 2: Desktop Version Completed
 
 ## Built With
 
 - Major languages : HTML & CSS
 - Frameworks : none
+- Linter
 
 ## Getting Started
 

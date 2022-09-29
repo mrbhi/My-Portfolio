@@ -13,58 +13,67 @@
   <body>
     <header>
       <nav class="hamburge-menu">
-        <a href="#">John Doe</a>
-        <img src="./img/Menu.png" alt="Hamburger-Menu" />
+        <a id="title" href="#">John Doe</a>
+        <img id="hamburger-menu" src="./img/Menu.png" alt="Hamburger-Menu" />
+        <ul class="menu-list">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#"><img src="./img/mail.png" alt="Mail Image"></a></li>
+        </ul>
       </nav>
     </header>
     <section class="headline">
-      <div class="message">
-        <h1>Hey There. <br />I’m Alex</h1>
-        <p class="title">I’am a Software Developer</p>
-        <p>
-          I can help you build a product , feature or website Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
-        </p>
+      <div class="col1">
+        <div class="message">
+          <h1>Hey There. <br />I’m Alex</h1>
+          <p class="title">I’am a Software Developer</p>
+          <p class="para">
+            I can help you build a product , feature or website Look through some
+            of my work and experience! If you like what you see and have a project
+            you need coded, <br> don’t hestiate to contact me.
+          </p>
+        </div>
+        <div class="social">
+          <ul>
+            <li>
+              <a href="http://github.com/mrbhi"
+                ><img class="social-icon-btn" src="./img/GitHub.png" alt="GitHub"
+              /></a>
+            </li>
+            <li>
+              <a href="http://linkedin.com"
+                ><img
+                  class="social-icon-btn"
+                  src="./img/Linkedin.png"
+                  alt="Linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="http://angelist.com"
+                ><img
+                  class="social-icon-btn"
+                  src="./img/Angelist.png"
+                  alt="Angelist"
+              /></a>
+            </li>
+            <li>
+              <a href="http://twitter.com/ADEX8600"
+                ><img
+                  class="social-icon-btn"
+                  src="./img/Twitter.png"
+                  alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="http://medium.com"
+                ><img class="social-icon-btn" src="./img/Medium.png" alt="Medium"
+              /></a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="social">
-        <ul>
-          <li>
-            <a href="http://github.com/mrbhi"
-              ><img class="social-icon-btn" src="./img/GitHub.png" alt="GitHub"
-            /></a>
-          </li>
-          <li>
-            <a href="http://linkedin.com"
-              ><img
-                class="social-icon-btn"
-                src="./img/Linkedin.png"
-                alt="Linkedin"
-            /></a>
-          </li>
-          <li>
-            <a href="http://angelist.com"
-              ><img
-                class="social-icon-btn"
-                src="./img/Angelist.png"
-                alt="Angelist"
-            /></a>
-          </li>
-          <li>
-            <a href="http://twitter.com/ADEX8600"
-              ><img
-                class="social-icon-btn"
-                src="./img/Twitter.png"
-                alt="Twitter"
-            /></a>
-          </li>
-          <li>
-            <a href="http://medium.com"
-              ><img class="social-icon-btn" src="./img/Medium.png" alt="Medium"
-            /></a>
-          </li>
-        </ul>
-      </div>
+      <div class="col2"></div>
     </section>
     <section class="recent-works">
       <div class="title">
@@ -86,8 +95,19 @@
         </div>
       </div>
       <div class="frame-container">
-        <div class="card-works">
-          <h2>Profesional Art Printing Data</h2>
+        <div id="work1" class="card-works">
+          <h2 class="project">Profesional Art Printing Data</h2>
+          <p class="project">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+          <ul class="project">
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+          <div class="show-button"></div>
+          <button class="btn-porject">See Project</button>
+        </div>
+        <div id="work2" class="card-works">
+          <h2 class="work-title"><span>Art Printing Data More</span></h2>
           <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
           <ul>
             <li>html</li>
@@ -96,18 +116,8 @@
           </ul>
           <button class="btn">See Project</button>
         </div>
-        <div class="card-works">
-          <h2>Profesional Art Printing Data</h2>
-          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-          <ul>
-            <li>html</li>
-            <li>bootstrap</li>
-            <li>Ruby</li>
-          </ul>
-          <button class="btn">See Project</button>
-        </div>
-        <div class="card-works">
-          <h2>Profesional Art Printing Data</h2>
+        <div id="work3" class="card-works">
+          <h2 class="work-title"><span>Profesional Art Printing Data</span></h2>
           <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
           <ul>
             <li>html</li>
@@ -116,8 +126,8 @@
           </ul>
           <button class="btn">See Project</button>
           </div>
-        <div class="card-works">
-          <h2>Profesional Art Printing Data</h2>
+        <div id="work4" class="card-works">
+          <h2 class="work-title"><span>Profesional Art Printing Data</span></h2>
           <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
           <ul>
             <li>html</li>
@@ -126,8 +136,8 @@
           </ul>
           <button class="btn">See Project</button>
         </div>
-        <div class="card-works">
-          <h2>Profesional Art Printing Data</h2>
+        <div id="work5" class="card-works">
+          <h2 class="work-title"><span>Profesional Art Printing Data</span></h2>
           <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
           <ul>
             <li>html</li>
@@ -136,8 +146,8 @@
           </ul>
           <button class="btn">See Project</button>
         </div>
-        <div class="card-works">
-          <h2>Profesional Art Printing Data</h2>
+        <div id="work6" class="card-works">
+          <h2 class="work-title"><span>Profesional Art Printing Data</span></h2>
           <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
           <ul>
             <li>html</li>
@@ -150,9 +160,12 @@
     </section>
     <section class="about-me">
       <div class="title">
-        <h1>About me</h1>
-        <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        <button class="btn">Get My Resume</button>
+        <div class="about-me-content">
+          <h1>About me</h1>
+          <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+          <button class="btn">Get My Resume</button>
+        </div>
+        <div class="about-me-img"></div>
       </div>
       <hr>
       <div class="skill">
@@ -197,20 +210,28 @@
       </div>
     </section>
     <section class="contact">
-      <div class="heading">
-        <h2>
-          I'm always <br> interested in hearing <br>
-          about new projects, <br> so if you'd like to
-          <br> chat please get in touch.
-        </h2>
-      </div>
-      <div class="form">
-        <form action="https://formspree.io/f/meqdgvvo" method="post" id="contact-form">
-          <input type="text" placeholder="Full name" name="name" maxlength="30" required>
-          <input type="email" placeholder="Email address" name="email" required>
-          <textarea name="message" id="msg" rows="10" placeholder="Enter text here" maxlength="500" required></textarea>
-          <button type="submit" class="submit">Get in touch</button>
-        </form> 
+      <div class="row1">
+        <div class="heading">
+          <h2 class="contact-title">
+            <span class="mb-content">
+              I'm always <br> interested in hearing <br>
+              about new projects, <br> so if you'd like to
+              <br> chat please get in touch.
+            </span>
+            <span class="ds-content">
+              I'm always interested <br> in hearing about new <br> projects, so if you'd <br> like to chat 
+              please <br> get in touch.
+            </span>
+          </h2>
+        </div>
+        <div class="form">
+          <form action="https://formspree.io/f/meqdgvvo" method="post" id="contact-form">
+            <input type="text" placeholder="Full name" name="name" maxlength="30" required>
+            <input type="email" placeholder="Email address" name="email" required>
+            <textarea name="message" id="msg" rows="10" placeholder="Enter text here" maxlength="500" required></textarea>
+            <button type="submit" class="submit">Get in touch</button>
+          </form> 
+        </div>
       </div>
       <footer class="social-link">
         <hr class="line-2">

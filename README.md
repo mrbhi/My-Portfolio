@@ -9,6 +9,7 @@
 
 - Major languages : HTML & CSS
 - Frameworks : none
+- Linter
 
 ## Getting Started
 

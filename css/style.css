@@ -140,6 +140,7 @@
   }
 
   .recent-works .feature-img {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,9 +149,9 @@
     margin-top: 80px;
   }
 
-  .feature-img img {
+  #f-img {
     width: 440px;
-    height: 330;
+    height: 330px;
   }
 
   .info {
@@ -740,6 +741,11 @@
     height: 448px;
   }
 
+  #f-img:hover {
+    transition: all 0.1s;
+    transform: scale(1.02);
+  }
+
   .info {
     width: 33%;
     height: 348px;
@@ -825,6 +831,8 @@
 
   #work1:hover {
     border: solid 2px #000;
+    transition: all 0.1s;
+    transform: scale(1.1);
   }
 
   .card-works .project {
@@ -835,6 +843,11 @@
     background-image: url('/img/Data.png');
     background-repeat: no-repeat;
     height: 435px;
+  }
+
+  .card-works:hover {
+    transition: all 0.1s;
+    transform: scale(1.1);
   }
 
   .card-works span {

@@ -741,11 +741,6 @@
     height: 448px;
   }
 
-  #f-img:hover {
-    transition: all 0.1s;
-    transform: scale(1.02);
-  }
-
   .info {
     width: 33%;
     height: 348px;
@@ -843,11 +838,6 @@
     background-image: url('/img/Data.png');
     background-repeat: no-repeat;
     height: 435px;
-  }
-
-  .card-works:hover {
-    transition: all 0.1s;
-    transform: scale(1.1);
   }
 
   .card-works span {
@@ -1260,6 +1250,11 @@
     background-color: #f55800;
   }
 
+  #f-img:hover {
+    transition: all 0.1s;
+    transform: scale(1.02);
+  }
+
   button:disabled {
     background-color: #f4f1f0;
   }
@@ -1279,5 +1274,10 @@
 
   .submit:disabled {
     background-color: #f4f1f0;
+  }
+
+  .card-works:hover {
+    transition: all 0.1s;
+    transform: scale(1.1);
   }
 }

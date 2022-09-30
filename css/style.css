@@ -1250,6 +1250,9 @@
 
   button:hover {
     background-color: #fff5e1;
+    transition: all 0.5s;
+    transform: scale(1.1);
+    border: solid 1px #f55800;
     color: #f55800;
   }
 

@@ -140,6 +140,7 @@
   }
 
   .recent-works .feature-img {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,9 +149,9 @@
     margin-top: 80px;
   }
 
-  .feature-img img {
+  #f-img {
     width: 440px;
-    height: 330;
+    height: 330px;
   }
 
   .info {
@@ -825,6 +826,8 @@
 
   #work1:hover {
     border: solid 2px #000;
+    transition: all 0.1s;
+    transform: scale(1.1);
   }
 
   .card-works .project {
@@ -1237,11 +1240,19 @@
 
   button:hover {
     background-color: #fff5e1;
+    transition: all 0.5s;
+    transform: scale(1.1);
+    border: solid 1px #f55800;
     color: #f55800;
   }
 
   button:active {
     background-color: #f55800;
+  }
+
+  #f-img:hover {
+    transition: all 0.1s;
+    transform: scale(1.02);
   }
 
   button:disabled {
@@ -1263,5 +1274,10 @@
 
   .submit:disabled {
     background-color: #f4f1f0;
+  }
+
+  .card-works:hover {
+    transition: all 0.1s;
+    transform: scale(1.1);
   }
 }

@@ -476,6 +476,11 @@
     line-height: 24px;
   }
 
+  #contact-form input,
+  textarea:focus {
+    outline: none;
+  }
+
   #contact-form textarea {
     padding: 12px 20px;
     margin: 8px 0;
@@ -488,10 +493,6 @@
     font-weight: 400;
     line-height: 24px;
     resize: none;
-  }
-
-  #contact-form input, textarea:focus {
-    outline: none;
   }
 
   .submit {
@@ -1166,7 +1167,7 @@
     flex-direction: column;
     gap: 24px;
   }
-  
+
   #contact-form input {
     padding: 12px 20px;
     margin: 8px 0;
@@ -1181,6 +1182,11 @@
     line-height: 24px;
   }
 
+  #contact-form input,
+  textarea:focus {
+    outline: none;
+  }
+
   #contact-form textarea {
     padding: 12px 20px;
     margin: 8px 0;
@@ -1193,10 +1199,6 @@
     font-weight: 400;
     line-height: 24px;
     resize: none;
-  }
-
-  #contact-form input,textarea:focus {
-    outline: none;
   }
 
   .submit {

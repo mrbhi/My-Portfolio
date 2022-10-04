@@ -591,7 +591,6 @@
 
 @media screen and (min-width: 768px) {
   header {
-    overflow: hidden;
     z-index: 1;
     position: fixed;
     top: 0;

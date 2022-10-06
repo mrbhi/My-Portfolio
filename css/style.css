@@ -675,7 +675,7 @@
     color: #fff;
   }
 
-  .hamburge-menu a:hover {
+  .hamburge-menu #title:hover {
     transform: rotate(-10deg);
   }
 

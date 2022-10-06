@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 768px) {
   header {
-    overflow: hidden;
+    z-index: 1;
     position: fixed;
     top: 0;
     display: flex;
@@ -339,6 +339,14 @@
     color: #f4f5f7;
   }
 
+  button:hover {
+    background-color: #fff5e1;
+    transition: all 0.5s;
+    transform: scale(1.02);
+    border: solid 1px #f55800;
+    color: #f55800;
+  }
+
   .about-me .title button {
     display: flex;
     flex-direction: row;
@@ -587,6 +595,22 @@
   .submit:disabled {
     background-color: #f4f1f0;
   }
+
+  #work1:hover {
+    border: solid 2px #000;
+    transition: all 0.1s;
+    transform: scale(1.02);
+  }
+
+  #f-img:hover {
+    transition: all 0.1s;
+    transform: scale(1.02);
+  }
+
+  .card-works:hover {
+    transition: all 0.1s;
+    transform: scale(1.02);
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -649,6 +673,10 @@
     font-size: 15px;
     line-height: 20px;
     color: #fff;
+  }
+
+  .hamburge-menu a:hover {
+    transform: rotate(-10deg);
   }
 
   .menu-list li a:hover {

@@ -587,6 +587,30 @@
   .submit:disabled {
     background-color: #f4f1f0;
   }
+
+  button:hover {
+    background-color: #fff5e1;
+    transition: all 0.5s;
+    transform: scale(1.02);
+    border: solid 1px #f55800;
+    color: #f55800;
+  }
+
+  #work1:hover {
+    border: solid 2px #000;
+    transition: all 0.1s;
+    transform: scale(1.02);
+  }
+
+  #f-img:hover {
+    transition: all 0.1s;
+    transform: scale(1.02);
+  }
+
+  .card-works:hover {
+    transition: all 0.1s;
+    transform: scale(1.02);
+  }
 }
 
 @media screen and (min-width: 768px) {

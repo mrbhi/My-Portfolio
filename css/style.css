@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 768px) {
   header {
-    overflow: hidden;
+    z-index: 1;
     position: fixed;
     top: 0;
     display: flex;
@@ -1364,4 +1364,8 @@
     transition: all 0.1s;
     transform: scale(1.02);
   }
+
+  .hamburge-menu a:hover {
+    transform: rotate(-10deg); 
+  } 
 }

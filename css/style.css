@@ -1186,6 +1186,7 @@
   }
 
   .row1 {
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin-top: 100px;
@@ -1230,6 +1231,7 @@
   }
 
   #contact-form {
+    width: 600px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -1239,7 +1241,6 @@
     padding: 12px 20px;
     margin: 8px 0;
     height: 48px;
-    width: 584px;
     border: none;
     color: #979493;
     border-bottom: solid 1px #dbd8d7;
@@ -1258,7 +1259,6 @@
     padding: 12px 20px;
     margin: 8px 0;
     height: 114px;
-    width: 584px;
     background: #fbf8f7;
     border: none;
     font-size: 15px;

@@ -28,6 +28,15 @@
     padding: 20px;
   }
 
+  #title {
+    animation: logo 2s linear;
+  }
+
+  @keyframes logo {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(359deg); }
+  }
+
   .hamburge-menu a {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
@@ -599,17 +608,17 @@
   #work1:hover {
     border: solid 2px #000;
     transition: all 0.1s;
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 
   #f-img:hover {
     transition: all 0.1s;
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 
   .card-works:hover {
     transition: all 0.1s;
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 }
 
@@ -636,6 +645,12 @@
   #title {
     display: flex;
     width: 15%;
+    animation: logo 2s linear;
+  }
+
+  @keyframes logo {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(359deg); }
   }
 
   .hamburge-menu a {
@@ -673,10 +688,6 @@
     font-size: 15px;
     line-height: 20px;
     color: #fff;
-  }
-
-  .hamburge-menu #title:hover {
-    transform: rotate(-10deg);
   }
 
   .menu-list li a:hover {
@@ -893,7 +904,7 @@
   #work1:hover {
     border: solid 2px #000;
     transition: all 0.1s;
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 
   .card-works .project {
@@ -1340,7 +1351,7 @@
 
   #f-img:hover {
     transition: all 0.1s;
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 
   button:disabled {
@@ -1366,6 +1377,6 @@
 
   .card-works:hover {
     transition: all 0.1s;
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 }

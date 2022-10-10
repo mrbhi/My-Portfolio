@@ -4,6 +4,7 @@
 
 > My Portfolio Project, Module 1: week 1: Mobile View Completed
 > My Portfolio Project, Module 1: week 2: Desktop Version Completed
+> My Portfolio Project, Module 1: week 3: Application Deployment
 
 ## Built With
 
@@ -14,6 +15,10 @@
 ## Getting Started
 
 **This project is create by @mrbhi. Go through, to see the content of the project Cheers!**
+
+## Live Preview
+
+- https://mrbhi.github.io/
 
 ## Authors
 

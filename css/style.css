@@ -1233,7 +1233,7 @@
   }
 
   #contact-form {
-    width: 600px;
+    width: 550px;
     display: flex;
     flex-direction: column;
     gap: 24px;

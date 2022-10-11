@@ -782,6 +782,15 @@
     margin-top: 120px;
   }
 
+  .about-me-content h1 {
+    display: flex;
+    font-family: 'Crete Round', sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    color: #f55800;
+  }
+
   .recent-works .title h1 {
     display: flex;
     width: 25%;
@@ -1053,15 +1062,6 @@
     flex-direction: column;
     margin-left: 130px;
     gap: 5%;
-  }
-
-  .about-me-content h1 {
-    display: flex;
-    font-family: 'Crete Round', sans-serif;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 82px;
-    color: #f55800;
   }
 
   .about-me-content p {

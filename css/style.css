@@ -927,7 +927,7 @@
   }
 
   .work1:hover {
-    background-image: url('/img/project2.png');
+    background-image: url('/img/Project.png');
     border: solid 2px #000;
     transition: all 0.1s;
     transform: scale(1.05);

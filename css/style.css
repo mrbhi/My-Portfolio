@@ -912,9 +912,7 @@
 
   .card-works .btn {
     display: none;
-    /* visibility: hidden; */
     text-decoration: none;
-    /* display: flex; */
     flex-direction: row;
     justify-content: center;
     align-items: center;

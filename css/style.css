@@ -28,6 +28,10 @@
     padding: 20px;
   }
 
+  .hamburger-menu-close {
+    display: none;
+  }
+
   #title {
     animation: logo 2s linear;
   }
@@ -357,7 +361,6 @@
   .btn:hover {
     background-color: #fff5e1;
     transition: all 0.5s;
-    transform: scale(1.02);
     border: solid 1px #f55800;
     color: #f55800;
   }
@@ -661,7 +664,7 @@
     text-align: center;
   }
 
-  #hamburger-menu {
+  .hamburger-menu {
     display: none;
   }
 
@@ -905,13 +908,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 400px;
   }
 
   .card-works .btn {
-    visibility: hidden;
+    display: none;
+    /* visibility: hidden; */
     text-decoration: none;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -931,7 +934,6 @@
     border: solid 2px #000;
     transition: all 0.1s;
     transform: scale(1.05);
-    height: 480px;
   }
 
   .work1:hover .card-content,
@@ -970,7 +972,7 @@
   }
 
   .work1:hover .btn {
-    visibility: visible;
+    display: flex;
   }
 
   .work2 {
@@ -978,13 +980,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 400px;
   }
 
   .work2:hover {
     transition: all 0.1s;
     transform: scale(1.05);
-    height: 460px;
   }
 
   .work2:hover .card-content,
@@ -993,7 +993,7 @@
   }
 
   .work2:hover .btn {
-    visibility: visible;
+    display: flex;
   }
 
   .work3 {
@@ -1001,13 +1001,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 400px;
   }
 
   .work3:hover {
     transition: all 0.1s;
     transform: scale(1.05);
-    height: 460px;
   }
 
   .work3:hover .card-content,
@@ -1016,7 +1014,7 @@
   }
 
   .work3:hover .btn {
-    visibility: visible;
+    display: flex;
   }
 
   .work4 {
@@ -1024,13 +1022,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 400px;
   }
 
   .work4:hover {
     transition: all 0.1s;
     transform: scale(1.05);
-    height: 460px;
   }
 
   .work4:hover .card-content,
@@ -1039,7 +1035,7 @@
   }
 
   .work4:hover .btn {
-    visibility: visible;
+    display: flex;
   }
 
   .work5 {
@@ -1047,13 +1043,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 400px;
   }
 
   .work5:hover {
     transition: all 0.1s;
     transform: scale(1.05);
-    height: 460px;
   }
 
   .work5:hover .card-content,
@@ -1062,7 +1056,7 @@
   }
 
   .work5:hover .btn {
-    visibility: visible;
+    display: flex;
   }
 
   .work6 {
@@ -1070,13 +1064,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 400px;
   }
 
   .work6:hover {
     transition: all 0.1s;
     transform: scale(1.05);
-    height: 460px;
   }
 
   .work6:hover .card-content,
@@ -1085,7 +1077,7 @@
   }
 
   .work6:hover .btn {
-    visibility: visible;
+    display: flex;
   }
 
   .card-works {

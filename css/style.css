@@ -28,10 +28,6 @@
     padding: 20px;
   }
 
-  .hamburger-menu-close {
-    display: none;
-  }
-
   #title {
     animation: logo 2s linear;
   }
@@ -50,7 +46,60 @@
   }
 
   .menu-list {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #3c3a39;
+    list-style: none;
+    transition: 0.3s;
+  }
+
+  .close {
+    text-align: right;
+  }
+
+  .menu-item {
+    margin-top: 30px;
+  }
+
+  .menu-list li {
+    border-bottom: solid 1px #6f6c6b;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .menu-list.active {
+    left: 0;
+    padding: 50px;
+  }
+
+  .menu-item a {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+  }
+
+  .sub-skill ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    text-align: center;
+    color: #fff;
   }
 
   .headline {
@@ -133,7 +182,6 @@
     background: #e5e5e5;
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(auto-fit);
     justify-content: center;
   }
 
@@ -306,6 +354,10 @@
     margin-top: 5%;
   }
 
+  .menu-list li:last-child {
+    display: none;
+  }
+
   .card-works .btn {
     display: flex;
     text-decoration: none;
@@ -443,20 +495,6 @@
     padding: 0 12px;
     gap: 8px;
     list-style: none;
-  }
-
-  .sub-skill ul li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 12px 0;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 43px;
-    text-align: center;
-    color: #fff;
   }
 
   .contact {
@@ -665,6 +703,10 @@
   }
 
   .hamburger-menu {
+    display: none;
+  }
+
+  .close {
     display: none;
   }
 

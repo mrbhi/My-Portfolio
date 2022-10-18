@@ -5,12 +5,14 @@
 > My Portfolio Project, Module 1: week 1: Mobile View Completed
 > My Portfolio Project, Module 1: week 2: Desktop Version Completed
 > My Portfolio Project, Module 1: week 3: Application Deployment
+> My Portfolio Project, Module 1: week 4: Mobile Menu drop Down and Modal Box Pop-up
 
 ## Built With
 
-- Major languages : HTML & CSS
+- Major languages : HTML, CSS & JAVASCRIPT
 - Frameworks : none
 - Linter
+- Eslint
 
 ## Getting Started
 
@@ -18,7 +20,7 @@
 
 ## Live Preview
 
-- https://mrbhi.github.io/
+- https://mrbhi.github.io/My-Portfolio
 
 ## Authors
 

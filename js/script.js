@@ -119,6 +119,7 @@ for (let i = 0; i < projectBtn.length; i += 1) {
   });
 }
 closeModal.addEventListener('click', () => {
+  css.classList.remove('active');
   modal.classList.remove('visible');
 });
 

@@ -109,7 +109,7 @@ const projectDescription = container.querySelectorAll('.data-description');
 const projectLiveLink = container.querySelectorAll('.data-liveLink');
 const projectSourceLink = container.querySelectorAll('.data-sourceLink');
 
-for (let i = 0; i < projectBtn.length; i++) {
+for (let i = 0; i < projectBtn.length; i += 1) {
   projectBtn[i].addEventListener('click', () => {
     modalTitle.textContent = projectTitle[i].innerHTML;
     modalDescription.textContent = projectDescription[i].innerHTML;

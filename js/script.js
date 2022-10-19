@@ -137,13 +137,13 @@ const errorElement = document.querySelector('#email-error');
 const error = (event) => {
   event.preventDefault();
   errorElement.classList.add('error');
-  email.classList.add('error')
+  email.classList.add('error');
   errorElement.textContent = 'Please make use of LowerClass text for your email address';
   errorElement.classList.remove('success');
 };
 
 const success = () => {
-  email.classList.remove('error')
+  email.classList.remove('error');
   errorElement.classList.remove('error');
   errorElement.classList.add('success');
 };

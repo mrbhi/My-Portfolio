@@ -1484,6 +1484,18 @@
     letter-spacing: 0.03em;
   }
 
+  #email-error {
+    display: none;
+  }
+
+  #email-error.success {
+    display: none;
+  }
+
+  #email-error.error {
+    display: block;
+  }
+
   .social-link {
     display: flex;
     flex-direction: column;

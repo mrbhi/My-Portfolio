@@ -598,6 +598,23 @@
     letter-spacing: 0.03em;
   }
 
+  #email.error {
+    border: solid 3px red;
+  }
+
+  #email-error {
+    display: none;
+  }
+
+  #email-error.success {
+    display: none;
+  }
+
+  #email-error.error {
+    display: block;
+    color: red;
+  }
+
   .social-link {
     display: flex;
     flex-direction: column;
@@ -623,7 +640,7 @@
   }
 
   .modal-container {
-    z-index: 1;
+    z-index: 99;
     display: flex;
     top: 0;
     width: 100%;
@@ -1484,6 +1501,10 @@
     letter-spacing: 0.03em;
   }
 
+  #email.error {
+    border: solid 3px red;
+  }
+
   #email-error {
     display: none;
   }
@@ -1494,6 +1515,7 @@
 
   #email-error.error {
     display: block;
+    color: red;
   }
 
   .social-link {
@@ -1523,7 +1545,7 @@
   }
 
   .modal-container {
-    z-index: 1;
+    z-index: 99;
     display: flex;
     top: 0;
     width: 100%;

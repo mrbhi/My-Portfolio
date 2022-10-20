@@ -156,3 +156,38 @@ submitForm.addEventListener('click', (event) => {
     success();
   }
 });
+
+// Local Storage
+
+// let userName = document.querySelector('#name').value;
+// let mail = document.querySelector('#email').value;
+// let message = document.querySelector('#msg').value;
+const submit = document.querySelector('#submit');
+
+const user = {
+  userName: 'Bello',
+  mail: 'bello123@gmail.coom',
+  message: 'Welcome to microverse',
+};
+
+window.localStorage.setItem('user', JSON.stringify(user));
+
+// const setValue = () => {
+//   userName = localStorage.setItem('name', userName);
+//   mail = localStorage.setItem('mail', mail);
+//   message = localStorage.setItem('name', message);
+// }
+
+const retriveValue = () => {
+  document.querySelector('#name').value = window.localStorage.getItem('userName', user.userName);
+  document.querySelector('#email').value = window.localStorage.getItem('mail', user.mail);
+  document.querySelector('#msg').value = window.localStorage.getItem('message', user.message);
+};
+
+// submit.addEventListener('submit', () => {
+//   if (!localStorage.key.value === '') {
+//     retriveValue()
+//   } else {
+//     setValue()
+//   }
+// })

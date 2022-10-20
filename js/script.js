@@ -127,3 +127,32 @@ featuredProject.addEventListener('click', () => {
   css.classList.add('active');
   modal.classList.add('visible');
 });
+
+// FORM VALIDATION
+
+const submitForm = document.querySelector('#submit');
+const email = document.querySelector('#email');
+const errorElement = document.querySelector('#email-error');
+
+const error = (event) => {
+  event.preventDefault();
+  errorElement.classList.add('error');
+  email.classList.add('error');
+  errorElement.textContent = 'Please make use of LowerClass text for your email address';
+  errorElement.classList.remove('success');
+};
+
+const success = () => {
+  email.classList.remove('error');
+  errorElement.classList.remove('error');
+  errorElement.classList.add('success');
+};
+
+submitForm.addEventListener('click', (event) => {
+  const pattern = /[A-Z]/;
+  if (pattern.test(email.value)) {
+    error(event);
+  } else {
+    success();
+  }
+});
